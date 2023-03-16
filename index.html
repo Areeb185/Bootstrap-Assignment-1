@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Bootstarp Assignment 1</title>
+</head>
+
+<body>
+    <div class="container ">
+        <div class="row">
+            <!-- R1 Col 1 -->
+            <div class="col-sm col col-md col-lg col-xl">
+                <h1 class="text-center">FORM</h1>
+            </div>
+            <!-- R1 Col 2 -->
+            <div class="col-sm col col-md col-lg col-xl">
+                <h1 class="text-center">TABLE</h1>
+            </div>
+        </div>
+        <div class="row">
+            <!-- R2 Col 1 -->
+            <div class="col-sm col col-md col-lg col-xl">
+                <div class="container">
+                    <form id="fm" method="post">
+
+                        <label for="name">Name : </label>
+                        <input class="form-control" type="text" id="name" required><br>
+
+                        <label for="phone">Phone Number : </label>
+                        <input class="form-control" type="text" id="phone" required><br>
+
+                        <label for="dob">Date of Birth : </label>
+                        <input class="form-control" type="date" id="dob" required><br>
+
+                        <label for="address">Address : </label>
+                        <textarea class="form-control" id="address" required cols="20" rows="5"></textarea><br>
+
+                        Gender :<br>
+                        <input type="radio" name="gender" id="male" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="female" value="female">
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" id="others" value="others">
+                        <label for="others">Others</label><br>
+
+                        <label>City :</label>
+                        <select class="form-control" name="city" id="city">
+                            <option value="">Select City</option>
+                            <option value="Meerut">Meerut</option>
+                            <option value="Muzaffarnagar">Muzaffarnagar</option>
+                            <option value="Delhi">Delhi</option>
+                        </select><br>
+
+                        <label>Hobbies:</label><br>
+                        <input type="checkbox" id="hobby1" name="hobbies" value="Reading">
+                        <label for="hobby1">Playing Football</label><br>
+                        <input type="checkbox" id="hobby2" name="hobbies" value="Travelling">
+                        <label for="hobby2">Playing Badminton</label><br>
+                        <input type="checkbox" id="hobby3" name="hobbies" value="Cooking">
+                        <label for="hobby3">Swimming</label><br>
+
+                        <div class="text-center">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+            <!-- R2 Col 2 -->
+            <div class="col-sm col col-md col-lg col-xl">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">SNo</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Phone No</th>
+                            <th scope="col">Gender</th>
+                            <th scope="col">City</th>
+                            <th scope="col">Hobbies</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Areeb</td>
+                            <td>9898989898</td>
+                            <td>Male</td>
+                            <td>Meerut</td>
+                            <td>Football, Swimming</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Mukul</td>
+                            <td>8198989898</td>
+                            <td>Male</td>
+                            <td>Jaunpur</td>
+                            <td>Listening Music, Travelling</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Kunal</td>
+                            <td>8484848484</td>
+                            <td>Male</td>
+                            <td>Gorakhpur</td>
+                            <td>Writing, Gaming</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
